@@ -1,0 +1,19 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "regression": "npx playwright test --grep=@Regression --project=webkit",
+    "smokepageobject" : "npx playwright test --grep=@PageObject --project=chromium"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.2",
+    "allure-playwright": "^2.5.0"
+  }
+}
