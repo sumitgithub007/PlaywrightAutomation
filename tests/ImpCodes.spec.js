@@ -30,6 +30,8 @@ test("@Web Check Element present Issues This will clear everything", async({page
     //     console.log(error +"The element didn't appear.")
     //   }
 
+    await expect(register.isSubscribeChecked()).toBeChecked();  //ye wait karega till amount of expect sai ha
+
       //await expect(page.locator("//div[@aria-label='Orders Deleted Successfully']")).toHaveCount(0);
   // await expect(page.locator("a[routerlink='/auth/register']")).toHaveCount(0);
 
