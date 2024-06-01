@@ -35,7 +35,8 @@ test("@Web Check Element present Issues This will clear everything", async({page
       //await expect(page.locator("//div[@aria-label='Orders Deleted Successfully']")).toHaveCount(0);
   // await expect(page.locator("a[routerlink='/auth/register']")).toHaveCount(0);
 
-
+ await expect(msg).toBeVisible();  //ye karega wait 10 second cool
+   
     //   Note : isVisible() depreciated not to use
     //   bec It never waits till a specified timeout
     //   https://playwright.dev/docs/api/class-locator#locator-is-visible
